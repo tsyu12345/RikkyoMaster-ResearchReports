@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.11.13)  1 AUG 2024 03:20
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.8.1)  1 AUG 2024 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -638,27 +638,54 @@ Overfull \hbox (40.43411pt too wide) in paragraph at lines 130--134
 [3] [4]
 File: ./images/FIeld-3.png Graphic file (type bmp)
 <./images/FIeld-3.png>
- [5]
 File: ./images/Field-4.png Graphic file (type bmp)
 <./images/Field-4.png>
+ [5]
+File: ./images/learning-1.png Graphic file (type bmp)
+<./images/learning-1.png>
+File: ./images/learning-2.png Graphic file (type bmp)
+<./images/learning-2.png>
+
+Overfull \hbox (53.99467pt too wide) in paragraph at lines 202--205
+ [][] 
+ []
+
+[6]
 File: ./images/result-1.png Graphic file (type bmp)
 <./images/result-1.png>
 File: ./images/result-2.png Graphic file (type bmp)
 <./images/result-2.png>
- [6] [7]
+ [7]
 File: ./images/PLATEAU-demo.png Graphic file (type bmp)
 <./images/PLATEAU-demo.png>
- [8] [9] (./23vr008n.aux)
-Package rerunfilecheck Info: File `23vr008n.out' has not changed.
-(rerunfilecheck)             Checksum: 65D8D5561ED1971CA116B49AB8404573;1046.
+ [8]
+
+LaTeX Warning: Hyper reference `sec:previous' on page 9 undefined on input line
+ 268.
+
+[9] [10] (./23vr008n.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `23vr008n.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `23vr008n.out':
+(rerunfilecheck)             Before: 65D8D5561ED1971CA116B49AB8404573;1046
+(rerunfilecheck)             After:  9D21E6ADEB1F877BAF0031349E07C811;861.
  ) 
 Here is how much of TeX's memory you used:
- 12802 strings out of 478741
- 198267 string characters out of 5860981
- 683174 words of memory out of 5000000
- 30939 multiletter control sequences out of 15000+600000
+ 12813 strings out of 478741
+ 198543 string characters out of 5860983
+ 683173 words of memory out of 5000000
+ 30948 multiletter control sequences out of 15000+600000
  539490 words of font info for 114 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 68i,8n,76p,346b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,8n,76p,346b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 23vr008n.dvi (9 pages, 33000 bytes).
+Output written on 23vr008n.dvi (10 pages, 33688 bytes).

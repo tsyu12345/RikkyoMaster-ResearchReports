@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.8.1)  1 AUG 2024 12:02
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.6.1)  1 AUG 2024 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -658,34 +658,37 @@ File: ./images/result-2.png Graphic file (type bmp)
  [7]
 File: ./images/PLATEAU-demo.png Graphic file (type bmp)
 <./images/PLATEAU-demo.png>
- [8]
-
-LaTeX Warning: Hyper reference `sec:previous' on page 9 undefined on input line
- 268.
-
-[9] [10] (./23vr008n.aux)
-
-LaTeX Warning: There were undefined references.
+ [8] [9]
+Overfull \hbox (109.55951pt too wide) in paragraph at lines 296--297
+ []\JY1/gt/m/n/10 特別研究 \T1/lmr/bx/n/10 1 \JY1/gt/m/n/10 研究報告書[] []$\T1
+/lmtt/m/n/10 https : / / drive . google . com / open ? id = 1cAxzPoKxxjQKVu29GL
+Q0nsldmYBtgDEn &
+ []
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Overfull \hbox (109.55951pt too wide) in paragraph at lines 299--300
+ []\JY1/gt/m/n/10 特別研究 \T1/lmr/bx/n/10 2 \JY1/gt/m/n/10 研究報告書[] []$\T1
+/lmtt/m/n/10 https : / / drive . google . com / open ? id = 1cJ8v32mS4TthynS6yP
+99nYb8Sv3YQPLZ &
+ []
 
 
-Package rerunfilecheck Warning: File `23vr008n.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+Overfull \hbox (142.66359pt too wide) in paragraph at lines 302--303
+ []\JY1/gt/m/n/10 シミ ュ レ ーシ ョ ン仕様詳細資料[] []$\T1/lmtt/m/n/10 https 
+: / / drive . google . com / open ? id = 1c601WA0q5NQFNyp4zDubgAXxkJsH3Moh &
+ []
 
-Package rerunfilecheck Info: Checksums for `23vr008n.out':
-(rerunfilecheck)             Before: 65D8D5561ED1971CA116B49AB8404573;1046
-(rerunfilecheck)             After:  9D21E6ADEB1F877BAF0031349E07C811;861.
+[10] (./23vr008n.aux)
+Package rerunfilecheck Info: File `23vr008n.out' has not changed.
+(rerunfilecheck)             Checksum: 9D21E6ADEB1F877BAF0031349E07C811;861.
  ) 
 Here is how much of TeX's memory you used:
- 12813 strings out of 478741
- 198543 string characters out of 5860983
- 683173 words of memory out of 5000000
- 30948 multiletter control sequences out of 15000+600000
+ 12811 strings out of 479777
+ 198508 string characters out of 5885797
+ 679060 words of memory out of 5000000
+ 30854 multiletter control sequences out of 15000+600000
  539490 words of font info for 114 fonts, out of 8000000 for 9000
- 929 hyphenation exceptions out of 8191
- 68i,8n,76p,346b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 309 hyphenation exceptions out of 8191
+ 68i,8n,76p,346b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 23vr008n.dvi (10 pages, 33688 bytes).
+Output written on 23vr008n.dvi (10 pages, 35296 bytes).

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.12)  12 NOV 2024 20:41
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.12)  12 NOV 2024 21:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -535,13 +535,6 @@ LaTeX Warning: Citation `sample' on page 1 undefined on input line 74.
 第1章
 LaTeX Font Info:    Font shape `TU/ipag.ttf(0)/m/n' will be
 (Font)              scaled to size 19.17854pt on input line 1.
-
-LaTeX Warning: Citation `sample' on page 1 undefined on input line 3.
-
-File: Figures/frog.jpg Graphic file (type bmp)
-<Figures/frog.jpg>
-LaTeX Font Info:    Font shape `TU/ipam.ttf(0)/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 8.
 ) (./Chapter2.tex [1
 
 
@@ -555,9 +548,17 @@ LaTeX Font Info:    Font shape `TU/ipam.ttf(0)/m/n' will be
 
 ]
 第4章
+) (./Chapter5.tex [4
+
+]
+第5章
+) (./Chapter6.tex [5
+
+]
+第6章
 )
 No file main.bbl.
-[4
+[6
 
 ] (./main.aux)
 
@@ -565,12 +566,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9408 strings out of 477728
- 227853 string characters out of 5842237
- 593973 words of memory out of 5000000
- 29873 multiletter control sequences out of 15000+600000
- 473244 words of font info for 68 fonts, out of 8000000 for 9000
+ 9425 strings out of 477728
+ 229071 string characters out of 5842237
+ 592963 words of memory out of 5000000
+ 29890 multiletter control sequences out of 15000+600000
+ 473228 words of font info for 66 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
  94i,7n,92p,335b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (7 pages).
+Output written on main.pdf (9 pages).

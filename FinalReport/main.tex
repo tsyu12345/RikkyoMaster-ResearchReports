@@ -1,0 +1,104 @@
+\documentclass[a4paper, 12pt]{bxjsreport}
+\usepackage{fontspec}
+\usepackage{zxjatype}
+\usepackage{amsmath}
+\usepackage{autobreak}
+\usepackage{bm}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[notransparent]{svg}
+\geometry{left=25truemm, top=10truemm, right=25truemm, bottom=20truemm}
+\setjamainfont{ipam.ttf}
+\setjasansfont{ipag.ttf}
+
+\makeatletter
+\newcommand{\biggg}[1]{{\hbox{$\left#1\vbox to 20.5pt{}\right.\n@space$}}}
+\newcommand{\Biggg}[1]{{\hbox{$\left#1\vbox to 23.5pt{}\right.\n@space$}}}
+\newcommand{\ctext}[1]{\raise0.2ex\hbox{\textcircled{\scriptsize{#1}}}}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+
+        \includesvg[width=110pt]{RIKKYOAI_main.svg}
+
+        \vspace{50truept}
+
+        %%%%%%%%% 修論は以下 %%%%%%%%%
+        % {\headfont \Large 2024年度　修士論文}
+        % \vspace{20truept}
+
+        % {\headfont \Huge タイトル}
+        % \vspace{160truept}
+        
+        % {\headfont \Large 学籍番号　 \LARGE 著者名}
+        % \vspace{10truept}
+        % % 複数著者の場合は上2行を複製
+
+        % \vspace{20truept}
+
+        % {\headfont \Large 指導教員　 指導教員名}
+        % % 複数教員の場合、「\and」 でつなげる
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        %%%%% プロジェクト実習は以下 %%%%%
+        {\headfont \Large 2024年度　修士論文}
+        \vspace{20truept}
+
+        {\headfont \Huge 津波避難誘導の「マルチエージェント強化学習」と「ドローン」によるアプローチの検討}
+        \vspace{160truept}
+        
+        {\headfont \Large 23VR008N　 \LARGE 高林 秀}\\ \vspace{10truept}
+        % 著者が増える場合は上行を複製
+        
+        \vspace{20truept}
+
+        {\headfont \Large 指導教員　 三宅陽一郎}
+        % 複数教員の場合、「\and」 でつなげる
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        
+        \vspace{100truept}
+        % ページがはみ出す場合はこの数字を調整
+
+        {\headfont \Large 立教大学大学院}
+        
+        \vspace{10truept}
+        
+        {\headfont \Large 人工知能科学研究科　人工知能科学専攻}
+
+    \end{center}
+\end{titlepage}
+
+% ===概要===
+\begin{abstract}
+ここに概要を書く~\cite{sample}
+\end{abstract}
+
+% ===目次===
+\setcounter{tocdepth}{2}
+ % 目次に表示する階層（必要に応じて変更）
+ % 0はchapterまで、1でsectionまで、2でsubsectionまで...
+\tableofcontents
+% ===目次をページ数に入れない===
+\thispagestyle{empty}
+\clearpage
+\addtocounter{page}{-1}
+
+% ===本文(直書きでも可)===
+% この方法ではFile outlineが出ない
+\input{Chapter1}
+\input{Chapter2}
+\input{Chapter3}
+\input{Chapter4}
+
+% ===謝辞(任意)===
+% \input{Acknowledgment}
+
+% ===参考文献===
+\bibliographystyle{unsrt}
+\bibliography{main.bib}
+
+% ===付録(任意)===
+% \input{Appendix}
+
+\end{document}

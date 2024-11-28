@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.12)  22 NOV 2024 10:52
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.12)  28 NOV 2024 22:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -388,7 +388,11 @@ Package fontspec Info: Font family 'ipam.ttf(0)' created for font 'ipam.ttf'
 (fontspec)             <->s*[0.924715]"[ipam.ttf]/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `fig:01' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -552,50 +556,72 @@ LaTeX Font Info:    Font shape `TU/ipag.ttf(0)/m/n' will be
 ]
 第2章
 LaTeX Font Info:    Font shape `TU/ipag.ttf(0)/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 9.
-Missing character: There is no ■ (U+25A0) in font [lmsans10-regular]:mapping=tex-text;!
-Missing character: There is no ■ (U+25A0) in font [lmsans10-regular]:mapping=tex-text;!
-Missing character: There is no ■ (U+25A0) in font [lmsans10-regular]:mapping=tex-text;!
+(Font)              scaled to size 11.09656pt on input line 12.
+LaTeX Font Info:    Font shape `TU/ipam.ttf(0)/m/n' will be
+(Font)              scaled to size 7.3977pt on input line 13.
 
-LaTeX Warning: Citation `yamada2020' on page 2 undefined on input line 16.
+LaTeX Warning: Citation `kouti-01' on page 2 undefined on input line 14.
 
+Missing character: There is no ■ (U+25A0) in font [lmsans10-regular]:mapping=tex-text;!
+File: Figures/001584918.jpg Graphic file (type bmp)
+<Figures/001584918.jpg>
+LaTeX Font Info:    Font shape `TU/ipam.ttf(0)/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 24.
 [2
 
 ]
+Missing character: There is no ■ (U+25A0) in font [lmsans10-regular]:mapping=tex-text;!
+
+LaTeX Warning: Citation `visitor01' on page 3 undefined on input line 37.
+
+[3]
+Missing character: There is no ■ (U+25A0) in font [lmsans10-regular]:mapping=tex-text;!
+
+LaTeX Warning: Citation `yamada2020' on page 4 undefined on input line 50.
+
 File: Figures/fig-01.png Graphic file (type bmp)
 <Figures/fig-01.png>
-LaTeX Font Info:    Font shape `TU/ipam.ttf(0)/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 22.
-) (./Chapter3.tex [3]
+
+LaTeX Warning: Citation `touhoku-01' on page 4 undefined on input line 61.
+
+
+LaTeX Warning: Citation `soumusho-01' on page 4 undefined on input line 64.
+
+File: Figures/2024-11-28 215911.png Graphic file (type bmp)
+<Figures/2024-11-28 215911.png>
+[4]) (./Chapter3.tex [5]
 第3章
-) (./Chapter4.tex [4
+) (./Chapter4.tex [6
 
 ]
 第4章
-) (./Chapter5.tex [5
+) (./Chapter5.tex [7
 
 ]
 第5章
-) (./Chapter6.tex [6
+) (./Chapter6.tex [8
 
 ]
 第6章
 )
 No file main.bbl.
-[7
+[9
 
 ] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 9691 strings out of 477728
- 236448 string characters out of 5842237
- 606280 words of memory out of 5000000
- 30142 multiletter control sequences out of 15000+600000
- 473252 words of font info for 69 fonts, out of 8000000 for 9000
+ 9826 strings out of 477728
+ 242258 string characters out of 5842237
+ 615329 words of memory out of 5000000
+ 30256 multiletter control sequences out of 15000+600000
+ 477398 words of font info for 86 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 94i,7n,92p,335b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 94i,8n,92p,426b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (10 pages).
+Output written on main.pdf (12 pages).

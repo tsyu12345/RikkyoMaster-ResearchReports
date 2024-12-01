@@ -73,12 +73,122 @@
 これにより,これまでドローンの活用が規制されていた防災分野での利活用や研究が大きく進んだ背景がある.\par 
 \subsection{ドローンによる避難誘導の先行研究}
 
-
-
 \section{強化学習}
-%% TODO;機械学習と強化学習の基本的な枠組みについて述べる
-  \subsection{MA-POCA（MultiAgent POsthumous Credit Assignment）}
-  %% TODO: 協調学習：MA-POCAについての説明
-\section{ナビゲーションメッシュ}
-  \subsection{a* アルゴリズム}
+強化学習とは、エージェント\footnote{モデルを訓練するための主体。環境に対して行動を出力する。}と環境\footnote{エージェントがいる世界、モデルの訓練を行うための様々な機能や状態を提供する。}との相互作用を通じ、
+得られる報酬\footnote{エージェントの行動の良し悪しを判断する評価値.行動に対する環境からの評価}を最大化するエージェントの方策\footnote{ポリシーとも呼ばれる。環境の状態に基づいて、次の行動を決定するための
+ルール}を学習する機械学習アルゴリズムの種類である.
+\begin{figure}[H] 
+  \centering 
+  \includegraphics[width=0.6\textwidth]{Figures/IntroReinforce.png}
+  \caption{出典：布留川英一 著 ML-Agents実践ゲームプログラミングより} 
+  \label{fig:01} 
+\end{figure}
+教師あり学習・教師なし学習の機械学習アルゴリズムと異なり、事前に訓練データを作成する必要はなく、訓練に必要なデータはエージェントが環境から得るものである.強化学習は与えられた環境の中で、最適な戦略行動 (方策)を分析することが目的となる。
 
+\subsection{マルチエージェント強化学習の基本概念}
+
+マルチエージェント強化学習 (Multi-Agent Reinforcement Learning, MARL) では、複数のエージェントが環境と相互作用し、それぞれが自身の行動方策を学習しながら、協調または競争を行う。以下にその基本的な数式を示す。
+
+\subsection*{環境の定義}
+環境は、部分観測可能マルコフ決定過程 (Decentralized-POMDP) として定義される：
+\[
+\mathcal{M} = \langle N, S, \{O_i\}_{i=1}^N, \{A_i\}_{i=1}^N, P, r, \gamma \rangle
+\]
+ここで：
+\begin{itemize}
+    \item $N$：エージェントの数
+    \item $S$：環境の状態空間
+    \item $O_i$：エージェント$i$の観測空間
+    \item $A_i$：エージェント$i$の行動空間
+    \item $P(s' | s, \boldsymbol{a})$：状態$s$と行動の組み合わせ$\boldsymbol{a} = (a_1, a_2, \dots, a_N)$から次の状態$s'$への遷移確率
+    \item $r(s, \boldsymbol{a})$：共有報酬関数
+    \item $\gamma$：割引率
+\end{itemize}
+
+\subsection*{エージェントの行動方策}
+各エージェント$i$は、観測$O_i$に基づき行動を選択する方策$\pi_i(a_i | o_i)$を学習する。エージェント全体の方策は次のように表される：
+\[
+\pi(\boldsymbol{a} | \boldsymbol{o}) = \prod_{i=1}^N \pi_i(a_i | o_i)
+\]
+
+\subsection*{状態価値関数と行動価値関数}
+\begin{itemize}
+    \item 状態価値関数$V^\pi(s)$は、状態$s$から始まり方策$\pi$に従ったときの期待累積報酬である：
+    \[
+    V^\pi(s) = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r(s_t, \boldsymbol{a}_t) \mid s_0 = s \right]
+    \]
+    \item 行動価値関数$Q^\pi(s, \boldsymbol{a})$は、状態$s$で行動$\boldsymbol{a}$を取った場合の期待累積報酬である：
+    \[
+    Q^\pi(s, \boldsymbol{a}) = r(s, \boldsymbol{a}) + \mathbb{E}_\pi \left[ \sum_{t=1}^\infty \gamma^t r(s_t, \boldsymbol{a}_t) \right]
+    \]
+\end{itemize}
+
+\subsection*{集中化されたCritic}
+MARLでは、集中化されたCriticを用いて全エージェントの観測$\boldsymbol{o}$と行動$\boldsymbol{a}$を基に価値関数を近似する：
+\[
+Q^\pi(s, \boldsymbol{a}) = f_\phi(s, \boldsymbol{a})
+\]
+ここで$f_\phi$はパラメータ$\phi$を持つ関数近似器（通常はニューラルネットワーク）である。
+
+\subsection*{Advantage関数}
+アクター・クリティックアルゴリズムでは、Advantage関数を用いて方策の更新を行う：
+\[
+A^\pi(s, \boldsymbol{a}) = Q^\pi(s, \boldsymbol{a}) - V^\pi(s)
+\]
+
+\subsection*{方策の更新}
+エージェントの方策は、Advantage関数を最大化するように勾配上昇法で更新される：
+\[
+\nabla_\theta J(\pi_\theta) = \mathbb{E}_{\pi_\theta} \left[ \nabla_\theta \log \pi_\theta(a | s) A^\pi(s, a) \right]
+\]
+
+\subsection*{協調と競争}
+協調タスクでは、全エージェントがグループ報酬$r(s, \boldsymbol{a})$を最大化する。一方、競争タスクでは、各エージェントが自分の報酬を最大化する。
+
+\subsection{MA-POCA（MultiAgent POsthumous Credit Assignment）}
+  環境内のエージェントの個体数の増減に対応し、エージェント間の協調行動を重んじるようなタスクを学習するのに適しているアルゴリズムがMA-POCA（MultiAgent POsthumous Credit Assignment）\cite{mapoca}である。\par 
+  MA-POCAは既存のマルチエージェントアルゴリズムと比較して、以下の特徴を持つ.
+  \begin{itemize}
+    \item 環境内のエージェント数の増減に対応した学習が可能
+    \item エピソード内でエージェントが生成・消滅するタスクや、標準的な協調タスクにおいて、既存手法を大幅に上回る性能を示した
+  \end{itemize}
+  例えば、実世界で動くようなドローンをエージェントとして、その群衆飛行を考えた時、あるバッテリーが切れたり、故障したりすることが考えられ、エージェントが他のエージェントよりも先に行動不能（早期終了）になる場合が考えられる。
+  既存のマルチエージェントアルゴリズムは、エージェントがエピソード\footnote{エージェントが環境と相互作用してタスクを完了するまでの一連のステップのこと。例えば、迷路のスタート地点からゴール地点までの移動がこれに該当する。一方、「ステップ」とは、そのエピソード内でエージェントが1回行動を選択し、環境から報酬と次の状態を受け取る単位時間のことである。}
+  終了前に消滅した場合,そのエージェントの行動出力に関係なく状態を固定することでこれを再現する。これを吸収状態と言い、このようにすることでCriticへの入力数を固定したまま学習を行うことが出来るが、同時に無駄な情報を入力しているとも捉えることができ、環境内のエージェント数が多いほどこの問題は顕著に出現することが指摘されている。\par
+  早期終了になったエージェントは、与えられたグループ報酬を経験することができない為,自身の行動のグループにおける価値を計算することができない。MA-POCAは、この問題を解消するために提案されたアルゴリズムで、エージェントが早期終了しても価値を伝搬させるアルゴリズムとなっている。\par
+  % TODO:MA-POCAのアルゴリズムの数式的説明を追加する
+  \paragraph{MA-POCAの性能評価}
+  MA-POCAは既存のMARL手法よりも多くの場合で性能が向上することが報告されている\cite{mapoca}。
+  下記のような4つの実験環境において,マルチエージェント強化学習手法COMA\footnote{}、そして、シングルエージェント強化学習手法PPO\footnote{}とMA-POCAの性能を比較した結果が示されている。
+  \begin{figure}[H] 
+    \centering 
+    \includegraphics[width=1.0\textwidth]{Figures/2022-10-06_10.03.52.png}
+    \caption{MA-POCAの性能評価を実施した環境} 
+    \label{fig:01} 
+  \end{figure}
+  \begin{enumerate}[(a)]
+    \item \textbf{Collaborative Push Block}
+    エージェント（青，黄，紫）は白いブロックを緑の領域まで押す。大きなブロックはより多くのエージェントが押す必要がある。
+  
+    \item \textbf{Simple Spread}
+    エージェント（紫）は互いにぶつかることなく、ターゲット（黒）をカバーするように移動しなければならない。
+    
+    \item \textbf{Baton Pass}
+    青いエージェントが緑色のfoodをつかみ、緑色のボタンを押すと別のエージェントが生まれ、次のfoodをつかむことができるようになるので、それを繰り返す。
+    
+    \item \textbf{Dungeon Escape}
+    青いエージェントは緑のドラゴンを倒し、そのうちの1人を犠牲にしてカギを出さなければならない。チームメイトは鍵を拾って、ピンクのドラゴンを避けながら、ドアまでたどり着くタスク。
+\end{enumerate}
+下図は、上記4環境における、累積報酬の推移を示している。このように、MA-POCAは既存のMARL手法よりも多くの場合で性能が向上することが報告されている。
+\begin{figure}[H] 
+  \centering 
+  \includegraphics[width=1.0\textwidth]{Figures/2022-10-06_10.04.14-min.png}
+  \caption{各環境でのMA-POCAの性能評価結果} 
+  \label{fig:01} 
+\end{figure}
+
+\section{ナビゲーションメッシュ}
+% TODO 三宅先生の著書から引用する。
+\subsection{a* アルゴリズム}
+キャラクターの移動経路を探索するナビゲーション機能のアルゴリズムとして、a*アルゴリズムが広く利用されている。
+a*アルゴリズムは、最短経路を探索するためのアルゴリズムで、

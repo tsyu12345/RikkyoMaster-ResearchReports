@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.12)  1 DEC 2024 21:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.12)  2 DEC 2024 21:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -629,30 +629,30 @@ LaTeX Warning: Citation `mapoca' on page 8 undefined on input line 149.
 
 Missing character: There is no ■ (U+25A0) in font [lmsans10-regular]:mapping=tex-text;!
 
-LaTeX Warning: Citation `mapoca' on page 8 undefined on input line 161.
+LaTeX Warning: Citation `mapoca' on page 8 undefined on input line 160.
 
 File: Figures/2022-10-06_10.03.52.png Graphic file (type bmp)
 <Figures/2022-10-06_10.03.52.png>
 [8]
 File: Figures/2022-10-06_10.04.14-min.png Graphic file (type bmp)
 <Figures/2022-10-06_10.04.14-min.png>
-) (./Chapter3.tex [9] [10]
+ [9] [10]) (./Chapter3.tex [11]
 第3章
-) (./Chapter4.tex [11
+) (./Chapter4.tex [12
 
 ]
 第4章
-) (./Chapter5.tex [12
+) (./Chapter5.tex [13
 
 ]
 第5章
-) (./Chapter6.tex [13
+) (./Chapter6.tex [14
 
 ]
 第6章
 )
 No file main.bbl.
-[14
+[15
 
 ] (./main.aux)
 
@@ -663,12 +663,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10451 strings out of 477728
- 252029 string characters out of 5842237
+ 10460 strings out of 477728
+ 252610 string characters out of 5842237
  619209 words of memory out of 5000000
- 30857 multiletter control sequences out of 15000+600000
+ 30866 multiletter control sequences out of 15000+600000
  479470 words of font info for 96 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
  94i,8n,92p,426b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (17 pages).
+Output written on main.pdf (18 pages).

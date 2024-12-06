@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.12)  3 DEC 2024 19:26
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.12)  6 DEC 2024 18:29
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -415,6 +415,9 @@ LaTeX Warning: Label `fig:01' multiply defined.
 
 LaTeX Warning: Label `fig:01' multiply defined.
 
+
+LaTeX Warning: Label `fig:01' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -588,75 +591,83 @@ LaTeX Font Info:    Font shape `TU/ipag.ttf(0)/m/n' will be
 第2章
 LaTeX Font Info:    Font shape `TU/ipag.ttf(0)/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 12.
-LaTeX Font Info:    Font shape `TU/ipam.ttf(0)/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 13.
-
-LaTeX Warning: Citation `kouti-01' on page 3 undefined on input line 14.
-
 Missing character: There is no ■ (U+25A0) in font [lmsans10-regular]:mapping=tex-text;!
+LaTeX Font Info:    Font shape `TU/ipam.ttf(0)/m/n' will be
+(Font)              scaled to size 7.3977pt on input line 15.
 File: Figures/001584918.jpg Graphic file (type bmp)
 <Figures/001584918.jpg>
 LaTeX Font Info:    Font shape `TU/ipam.ttf(0)/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 24.
+(Font)              scaled to size 8.32242pt on input line 20.
 [3
 
 ]
-Missing character: There is no ■ (U+25A0) in font [lmsans10-regular]:mapping=tex-text;!
 
-LaTeX Warning: Citation `visitor01' on page 4 undefined on input line 37.
+LaTeX Warning: Citation `kouti-01' on page 4 undefined on input line 37.
 
 [4]
+
+LaTeX Warning: Citation `tsunami_evacuation_koshigoe' on page 5 undefined on input line 39.
+
+
+LaTeX Warning: Citation `visitor01' on page 5 undefined on input line 40.
+
+
+LaTeX Warning: Citation `kitahara2013tsunami' on page 5 undefined on input line 44.
+
 Missing character: There is no ■ (U+25A0) in font [lmsans10-regular]:mapping=tex-text;!
 
-LaTeX Warning: Citation `yamada2020' on page 5 undefined on input line 50.
+LaTeX Warning: Citation `yamada2020' on page 5 undefined on input line 55.
 
 File: Figures/fig-01.png Graphic file (type bmp)
 <Figures/fig-01.png>
+[5]
 
-LaTeX Warning: Citation `touhoku-01' on page 5 undefined on input line 61.
+LaTeX Warning: Citation `touhoku-01' on page 6 undefined on input line 66.
 
 
-LaTeX Warning: Citation `soumusho-01' on page 5 undefined on input line 64.
+LaTeX Warning: Citation `soumusho-01' on page 6 undefined on input line 70.
 
 File: Figures/2024-11-28 215911.png Graphic file (type bmp)
 <Figures/2024-11-28 215911.png>
-[5]
+[6]
 File: Figures/IntroReinforce.png Graphic file (type bmp)
 <Figures/IntroReinforce.png>
- [6] [7] [8]
+ [7] [8]
 
-LaTeX Warning: Citation `mapoca' on page 9 undefined on input line 149.
+LaTeX Warning: Citation `mapoca' on page 9 undefined on input line 155.
 
+[9]
 Missing character: There is no ■ (U+25A0) in font [lmsans10-regular]:mapping=tex-text;!
 
-LaTeX Warning: Citation `mapoca' on page 9 undefined on input line 160.
+LaTeX Warning: Citation `mapoca' on page 10 undefined on input line 166.
 
 File: Figures/2022-10-06_10.03.52.png Graphic file (type bmp)
 <Figures/2022-10-06_10.03.52.png>
-[9]
 File: Figures/2022-10-06_10.04.14-min.png Graphic file (type bmp)
 <Figures/2022-10-06_10.04.14-min.png>
+[10]
 
+LaTeX Warning: Citation `miyake2016' on page 11 undefined on input line 196.
 
-LaTeX Warning: Citation `miyake2016' on page 10 undefined on input line 190.
-
-[10] [11]) (./Chapter3.tex [12]
+[11] [12]) (./Chapter3.tex [13]
 第3章
-[13
+File: Figures/2024-12-06 182816.png Graphic file (type bmp)
+<Figures/2024-12-06 182816.png>
+[14
 
-]) (./Chapter4.tex [14]
+]) (./Chapter4.tex [15] [16]
 第4章
-) (./Chapter5.tex [15
+) (./Chapter5.tex [17
 
 ]
 第5章
-) (./Chapter6.tex [16
+) (./Chapter6.tex [18
 
 ]
 第6章
 )
 No file main.bbl.
-[17
+[19
 
 ] (./main.aux)
 
@@ -667,12 +678,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10461 strings out of 477728
- 252622 string characters out of 5842237
- 619209 words of memory out of 5000000
- 30867 multiletter control sequences out of 15000+600000
+ 10471 strings out of 477728
+ 252931 string characters out of 5842237
+ 618210 words of memory out of 5000000
+ 30876 multiletter control sequences out of 15000+600000
  479470 words of font info for 96 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 94i,8n,92p,426b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 94i,8n,92p,364b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (20 pages).
+Output written on main.pdf (22 pages).

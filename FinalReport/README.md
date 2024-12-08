@@ -43,16 +43,15 @@ sudo apt-get dselect-upgrade
 
 
     // ---------- LaTeX Workshop ----------
-
     // 使用パッケージのコマンドや環境の補完を有効にする
     "latex-workshop.intellisense.package.enabled": true,
-
     // 生成ファイルを削除するときに対象とするファイル
     // デフォルト値に "*.synctex.gz" を追加
     "latex-workshop.latex.autoClean.run": "onBuilt",
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
         "*.bbl",
+        "*.bib",
         "*.blg",
         "*.idx",
         "*.ind",
@@ -76,20 +75,20 @@ sudo apt-get dselect-upgrade
         "*.ilg",
         "*.synctex.gz"
     ],
-
     // 生成ファイルを現在のディレクトリに吐き出す
     "latex-workshop.latex.outDir": "",
-
     // ビルドのレシピ
     "latex-workshop.latex.recipes": [
         {
-            "name": "xelatex",
+            "name": "xelatex -> bibtex -> xelatex*2",
             "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
                 "xelatex"
             ]
-        },
+        }
     ],
-
     // ビルドのレシピに使われるパーツ
     "latex-workshop.latex.tools": [
         {
@@ -105,6 +104,13 @@ sudo apt-get dselect-upgrade
                 "%DOC%"
             ],
         },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+        }
     ],
 }
 ```

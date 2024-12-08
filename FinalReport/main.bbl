@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}
+
+\bibitem{kouti-01}
+
+
+\bibitem{visitor01}
+
+
+\bibitem{kitahara2013tsunami}
+北原 武嗣, 岸 祐介, and 久保 幸奨.
+\newblock
+  高低差を考慮した津波災害時の群衆避難における経路選択に関する一検討.
+\newblock {\em 土木学会論文集A1（構造・地震工学）},
+  69(4):I\_1067--I\_1075, 2013.
+\newblock
+  鎌倉市材木座沿岸部を対象とした津波避難シミュレーションを通じて、パーソナルスペースや高低差の考慮が避難行動に及ぼす影響を検討。.
+
+\bibitem{yamada2020}
+山田忠, 後藤雄太, and 松枝心路.
+\newblock
+  風水害における消防団員の人的被害の特徴－1969年から2018年までの災害を事例に－.
+\newblock {\em 土木学会論文集F6（安全問題）}, 76(1):20--27, 2020.
+
+\bibitem{touhoku-01}
+
+
+\bibitem{soumusho-01}
+総務省・消防庁.
+\newblock
+  無人航空機の災害時における活用状況等調査について.
+\newblock {\em 消防の動き}, 2, 2022.
+
+\bibitem{mapoca}
+Andrew Cohen, Ervin Teng, Vincent-Pierre Berges, Ruo-Ping Dong, Hunter Henry,
+  Marwan Mattar, Alexander Zook, and Sujoy Ganguly.
+\newblock On the use and misuse of absorbing states in multi-agent
+  reinforcement learning.
+\newblock {\em arXiv}, 2111.05992v2(cs.LG), 2022.
+
+\bibitem{miyake2016}
+三宅 陽一郎.
+\newblock {\em
+  人工知能の作り方――「おもしろい」ゲームAIはいかにして動くのか}.
+\newblock 技術評論社, 東京, 2016.
+\newblock ISBN: 978-4-7741-8627-6.
+
+\end{thebibliography}

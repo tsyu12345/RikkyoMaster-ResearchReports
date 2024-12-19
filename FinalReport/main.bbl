@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{kouti-01}
 
@@ -43,5 +43,27 @@ Andrew Cohen, Ervin Teng, Vincent-Pierre Berges, Ruo-Ping Dong, Hunter Henry,
   人工知能の作り方――「おもしろい」ゲームAIはいかにして動くのか}.
 \newblock 技術評論社, 東京, 2016.
 \newblock ISBN: 978-4-7741-8627-6.
+
+\bibitem{CRDS2022DigitalTwin}
+国立研究開発法人科学技術振興機構
+  研究開発戦略センター.
+\newblock デジタルツインに関する国内外の研究開発動向.
+\newblock Technical report, 国立研究開発法人科学技術振興機構, 3
+  2022.
+\newblock 調査報告書 CRDS-FY2021-RR-09.
+
+\bibitem{unity_robot_digital_twin_2021}
+Unity Technologies.
+\newblock Made with
+  unity：ロボットのデジタルツインの制作とトレーニング, 3
+  2021.
+\newblock 最終アクセス: 2024年12月19日.
+
+\bibitem{scsk_toyota_digital_twin_2024}
+SCSK株式会社.
+\newblock
+  工場の「デジタルツイン」で働き方を変える。トヨタ自動車が目指す魅力的な職場づくり,
+  2 2024.
+\newblock 最終アクセス: 2024年12月19日.
 
 \end{thebibliography}

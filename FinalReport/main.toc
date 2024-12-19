@@ -6,31 +6,32 @@
 \contentsline {subsection}{\numberline {2.1.1}訪日観光客数の増加と観光地における避難誘導の課題}{3}{}%
 \contentsline {paragraph}{我が国の観光客数増加}{3}{}%
 \contentsline {subsection}{\numberline {2.1.2}津波避難タワー・津波避難ビル}{4}{}%
-\contentsline {subsection}{\numberline {2.1.3}二次被害の発生}{5}{}%
-\contentsline {paragraph}{風水害時における人的被害の特徴}{5}{}%
+\contentsline {subsection}{\numberline {2.1.3}二次被害の発生}{6}{}%
+\contentsline {paragraph}{風水害時における人的被害の特徴}{6}{}%
 \contentsline {section}{\numberline {2.2}既存のドローンの災害対応における活用事例と航空法改正}{6}{}%
 \contentsline {subsection}{\numberline {2.2.1}ドローンによる避難誘導の先行研究}{7}{}%
 \contentsline {section}{\numberline {2.3}強化学習}{7}{}%
-\contentsline {subsection}{\numberline {2.3.1}マルチエージェント強化学習の基本概念}{7}{}%
+\contentsline {subsection}{\numberline {2.3.1}マルチエージェント強化学習の基本概念}{8}{}%
 \contentsline {subsection}{\numberline {2.3.2}MA-POCA（MultiAgent POsthumous Credit Assignment）}{9}{}%
 \contentsline {paragraph}{MA-POCAの性能評価}{10}{}%
 \contentsline {section}{\numberline {2.4}ナビゲーションメッシュ}{11}{}%
 \contentsline {subsection}{\numberline {2.4.1}a* アルゴリズム}{12}{}%
 \contentsline {section}{\numberline {2.5}強化学習エージェントのデジタルツインへの応用}{13}{}%
-\contentsline {chapter}{\numberline {第3章}提案手法と実験概要}{14}{}%
-\contentsline {section}{\numberline {3.1}提案手法の概要}{14}{}%
-\contentsline {section}{\numberline {3.2}既存研究との新規性}{15}{}%
-\contentsline {section}{\numberline {3.3}シミュレーション・学習環境構築}{16}{}%
-\contentsline {subsection}{\numberline {3.3.1}環境全般}{16}{}%
-\contentsline {subsection}{\numberline {3.3.2}都市モデルの選定と避難所の配置条件}{16}{}%
-\contentsline {subsection}{\numberline {3.3.3}避難者の行動設計}{16}{}%
-\contentsline {section}{\numberline {3.4}エージェントモデル}{17}{}%
-\contentsline {subsection}{\numberline {3.4.1}移動経路の計算方法}{17}{}%
-\contentsline {subsection}{\numberline {3.4.2}観測情報}{17}{}%
-\contentsline {subsection}{\numberline {3.4.3}報酬関数と行動評価}{17}{}%
-\contentsline {section}{\numberline {3.5}実験概要}{17}{}%
-\contentsline {subsection}{\numberline {3.5.1}誘導タスクにおける比較実験}{17}{}%
-\contentsline {chapter}{\numberline {第4章}実験結果と考察}{18}{}%
-\contentsline {chapter}{\numberline {第5章}結果と考察}{19}{}%
-\contentsline {chapter}{\numberline {第6章}結論}{20}{}%
-\contentsline {chapter}{参考文献}{21}{}%
+\contentsline {subsection}{\numberline {2.5.1}スマートシティへのAIの応用}{14}{}%
+\contentsline {chapter}{\numberline {第3章}提案手法と実験概要}{15}{}%
+\contentsline {section}{\numberline {3.1}提案手法の概要}{15}{}%
+\contentsline {section}{\numberline {3.2}既存研究との新規性}{16}{}%
+\contentsline {section}{\numberline {3.3}シミュレーション・学習環境構築}{17}{}%
+\contentsline {subsection}{\numberline {3.3.1}環境全般}{17}{}%
+\contentsline {subsection}{\numberline {3.3.2}都市モデルの選定と避難所の配置条件}{17}{}%
+\contentsline {subsection}{\numberline {3.3.3}避難者の行動設計}{17}{}%
+\contentsline {section}{\numberline {3.4}エージェントモデル}{18}{}%
+\contentsline {subsection}{\numberline {3.4.1}移動経路の計算方法}{18}{}%
+\contentsline {subsection}{\numberline {3.4.2}観測情報}{18}{}%
+\contentsline {subsection}{\numberline {3.4.3}報酬関数と行動評価}{18}{}%
+\contentsline {section}{\numberline {3.5}実験概要}{18}{}%
+\contentsline {subsection}{\numberline {3.5.1}誘導タスクにおける比較実験}{18}{}%
+\contentsline {chapter}{\numberline {第4章}実験結果と考察}{19}{}%
+\contentsline {chapter}{\numberline {第5章}結果と考察}{20}{}%
+\contentsline {chapter}{\numberline {第6章}結論}{21}{}%
+\contentsline {chapter}{参考文献}{22}{}%

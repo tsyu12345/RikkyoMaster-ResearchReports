@@ -30,6 +30,13 @@
   無人航空機の災害時における活用状況等調査について.
 \newblock {\em 消防の動き}, 2, 2022.
 
+\bibitem{sugiyasu2018uav}
+杉安 和也, 高橋 秀幸, 横田 信英, and 片山 健太.
+\newblock 津波避難時の誘導を目的としたuav活用方法の検討.
+\newblock In {\em 東日本大震災特別論文集 No.7}, pages 7--10.
+  東北大学 災害科学国際研究所, July 2018.
+\newblock 福島県いわき市での実証実験を含む.
+
 \bibitem{suzuki2020drone}
 鈴木 学, 浜 克己, and 中村 尚彦.
 \newblock 協調ドローンを用いた避難誘導支援システム.

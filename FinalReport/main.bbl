@@ -30,6 +30,24 @@
   無人航空機の災害時における活用状況等調査について.
 \newblock {\em 消防の動き}, 2, 2022.
 
+\bibitem{suzuki2020drone}
+鈴木 学, 浜 克己, and 中村 尚彦.
+\newblock 協調ドローンを用いた避難誘導支援システム.
+\newblock {\em 計測自動制御学会論文集}, 56(1):24--30, 2020.
+\newblock Vol.56, No.1, 24/30 (2020).
+
+\bibitem{takahashi2018uav}
+高橋秀幸, 片山健太, 横田信英, 杉安和也, 北形元, and
+  木下哲男.
+\newblock Uavを活用した避難誘導支援システムの設計と試作.
+\newblock In {\em FIT2018（第17回情報科学技術フォーラム）},
+  pages 363--364. 情報処理学会, September 2018.
+
+\bibitem{sendai_tsunami_drone}
+仙台市.
+\newblock 津波避難広報ドローン事業, 2023.
+\newblock 最終アクセス日: 2024年12月20日.
+
 \bibitem{mapoca}
 Andrew Cohen, Ervin Teng, Vincent-Pierre Berges, Ruo-Ping Dong, Hunter Henry,
   Marwan Mattar, Alexander Zook, and Sujoy Ganguly.

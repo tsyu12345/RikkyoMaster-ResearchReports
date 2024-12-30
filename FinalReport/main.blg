@@ -17,45 +17,45 @@ Warning--empty author in touhoku-01
 Warning--empty title in touhoku-01
 Warning--empty journal in touhoku-01
 Warning--empty year in touhoku-01
-You've used 15 entries,
+You've used 16 entries,
             1791 wiz_defined-function locations,
-            526 strings with 6218 characters,
-and the built_in function-call counts, 2946 in all, are:
-= -- 248
-> -- 120
+            531 strings with 6429 characters,
+and the built_in function-call counts, 3143 in all, are:
+= -- 262
+> -- 137
 < -- 2
-+ -- 48
-- -- 33
-* -- 200
-:= -- 448
-add.period$ -- 46
-call.type$ -- 15
-change.case$ -- 12
++ -- 54
+- -- 38
+* -- 214
+:= -- 486
+add.period$ -- 50
+call.type$ -- 16
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 136
-empty$ -- 304
-format.name$ -- 33
-if$ -- 649
+cite$ -- 28
+duplicate$ -- 144
+empty$ -- 318
+format.name$ -- 38
+if$ -- 689
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 12
-newline$ -- 77
-num.names$ -- 12
-pop$ -- 65
+int.to.str$ -- 16
+missing$ -- 13
+newline$ -- 83
+num.names$ -- 13
+pop$ -- 67
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 68
+skip$ -- 71
 stack$ -- 0
 substring$ -- 138
-swap$ -- 27
+swap$ -- 28
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 12
-while$ -- 24
-width$ -- 17
-write$ -- 155
+while$ -- 25
+width$ -- 18
+write$ -- 167
 (There were 14 warnings)

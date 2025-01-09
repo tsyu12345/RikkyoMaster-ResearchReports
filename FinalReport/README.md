@@ -20,7 +20,7 @@ sudo apt-get dselect-upgrade
 
 ## latex × vscodeの自動コンパイル設定。
 - ワークスペースの推奨拡張機能をインストールし、settings.jsonに以下の設定を追加する。
-```json
+```json　23VR008N_高林秀_20241206
 {
     "[tex]": {
         // スニペット補完中にも補完を使えるようにする

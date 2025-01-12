@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: main.bib
+Warning--I didn't find a database entry for "sample"
+Warning--I didn't find a database entry for "tsunami_evacuation_koshigoe"
+Warning--empty author in kouti-01
+Warning--empty title in kouti-01
+Warning--empty journal in kouti-01
+Warning--empty year in kouti-01
+Warning--empty author in visitor01
+Warning--empty title in visitor01
+Warning--empty journal in visitor01
+Warning--empty year in visitor01
+Warning--empty author in touhoku-01
+Warning--empty title in touhoku-01
+Warning--empty journal in touhoku-01
+Warning--empty year in touhoku-01
+You've used 16 entries,
+            1791 wiz_defined-function locations,
+            531 strings with 6429 characters,
+and the built_in function-call counts, 3143 in all, are:
+= -- 262
+> -- 137
+< -- 2
++ -- 54
+- -- 38
+* -- 214
+:= -- 486
+add.period$ -- 50
+call.type$ -- 16
+change.case$ -- 13
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 144
+empty$ -- 318
+format.name$ -- 38
+if$ -- 689
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 13
+newline$ -- 83
+num.names$ -- 13
+pop$ -- 67
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 71
+stack$ -- 0
+substring$ -- 138
+swap$ -- 28
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 12
+while$ -- 25
+width$ -- 18
+write$ -- 167
+(There were 14 warnings)

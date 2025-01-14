@@ -43,7 +43,7 @@
 \section{シミュレーション前提条件}
 \subsection{都市モデルの選定と避難所の配置条件}
 環境としては,下記3つの都市の都市モデルをPLATEAU SDK for Unity\footnote{
-  %TODO
+  PLATEAU:プラトーは、国土交通省が主導する日本全国の3D都市モデルの設備・オープンデータ化プロジェクト
 }
 を使い3D空間上に実際の都市環境に近いシミュレーション環境を再現する.
 なお,都市の選定基準については,\ref{sec:sug}章にて述べた想定場面を考慮するため下記の選定基準をもって決定した.
@@ -58,8 +58,8 @@
   \item 神奈川県横須賀市 市役所本庁舎 周辺沿岸地域
   \item 静岡県沼津市 沼津港周辺の一部地域
 \end{enumerate}
-都市モデルと実際の避難ビル（避難タワー）との位置付けは,自治体公表のハザードマップより目算により算出し,都市モデル上で指定した.
-各モデル都市におけるシミュレーション対象範囲は以下地図の赤枠で示した範囲とする.
+都市モデルと実際の避難ビル（避難タワー）との位置付けは,自治体公表のハザードマップ\cite{yokosukaHazardMap}\cite{numazuHazardMap}より確認し,都市モデル上で指定した.
+各モデル都市におけるシミュレーション対象範囲は以下地図\ref{fig:YokosukaMapRange}と地図\ref{fig:NumazuMapRange}の赤枠で示した範囲とする.
 \begin{figure}[H]
   \centering
   % 左側の画像
@@ -77,6 +77,7 @@
       \caption{対象範囲の横須賀市のハザードマップ}
       \label{fig:right_image}
   \end{minipage}
+  \label{fig:MapRange}
 \end{figure}
 \begin{figure}[H]
   \centering
@@ -85,7 +86,7 @@
       \centering
       \includegraphics[width=\textwidth]{Figures/NumazuRange.png} 
       \caption{沼津市でのシミュレーション範囲}
-      \label{fig:YokosukaMapRange}
+      \label{fig:NumazuMapRange}
   \end{minipage}
   \hfill % 隙間を調整
   % 右側の画像
@@ -129,7 +130,7 @@
 なお,出現するエージェントの数は,環境内の避難所1つあたりにつき1機とする.
 移動方法の詳細は後述する各実験の章にて述べる.エージェントは自身の移動が完了するごとに決定を要求し,環境の観測を行った後,行動を決定する.
 なお,強化学習アルゴリズムにはMA-POCAを利用する.
-ハイパーパラメータの設定値については巻末の付録に記載する.
+
 
 \section{避難者探索タスク実験方法}
 この実験ではエージェントは環境内の避難者を探索し,制限時間以内にできるだけ多くの避難者を見つけるタスクを行う.

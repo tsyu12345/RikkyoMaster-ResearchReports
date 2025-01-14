@@ -1,10 +1,25 @@
 \begin{thebibliography}{10}
 
-\bibitem{kouti-01}
+\bibitem{shimauchi2017}
+島内 佑規.
+\newblock
+  津波避難タワーへの避難者数と収容人数の現状及び解決策の検討.
+\newblock 高知工科大学 卒業論文, 2017.
 
+\bibitem{yamada2018}
+山田 太郎, 佐藤 花子, and 鈴木 次郎.
+\newblock
+  観光客の津波避難経路選択について―鎌倉市腰越地区をケーススタディとして―.
+\newblock {\em 都市計画報告集}, 17(4):388--395, 2018.
 
-\bibitem{visitor01}
-
+\bibitem{Okayasu2007}
+岡安章夫, 武若聡, 中野晋, 村上啓介, 荒木進歩, 森信人,
+  青木伸一, 今村文彦, 越村俊一, and 佐藤愼司.
+\newblock
+  津波防災に対する住民・海岸利用者の意識と対策立案者の認識との相違に関する調査.
+\newblock {\em 海岸工学論文集}, 54:1336--1340, 2007.
+\newblock A Questionnaire Survey on Discrepancies between Assumed and Actual
+  Demands and Knowledge of Citizens for Tsunami Disaster Prevention.
 
 \bibitem{kitahara2013tsunami}
 北原 武嗣, 岸 祐介, and 久保 幸奨.
@@ -21,8 +36,16 @@
   風水害における消防団員の人的被害の特徴－1969年から2018年までの災害を事例に－.
 \newblock {\em 土木学会論文集F6（安全問題）}, 76(1):20--27, 2020.
 
-\bibitem{touhoku-01}
+\bibitem{npa2012}
+東日本大震災における警察官の殉職・行方不明に関する報告.
+\newblock {\em 警察庁 震災関連報告書}, page~11, 2012.
+\newblock 平成24年3月11日現在のデータを含む.
 
+\bibitem{syouboukikin2012}
+災害補償課.
+\newblock
+  東日本大震災に係る消防団員等の公務災害補償等の状況について（平成24年5月末日現在）.
+\newblock {\em 広報 消防基金}, (184):21--28, 7 2012.
 
 \bibitem{soumusho-01}
 総務省・消防庁.
@@ -96,6 +119,16 @@ Rana Azzam, Mohammad Chehadeh, Oussama~Abdul Hay, Igor Boiko, and Yahya Zweiri.
 \newblock Learning to navigate through reinforcement across the sim2real gap.
 \newblock {\em TechRxiv Preprint}, October 2023.
 \newblock Preprint available on TechRxiv.
+
+\bibitem{yokosukaHazardMap}
+横須賀市ハザードマップ, 10 2023.
+\newblock
+  横須賀市防災ナビより提供された最新ハザードマップ.
+
+\bibitem{numazuHazardMap}
+沼津市津波ハザードマップ（第4次計画）, 2023.
+\newblock
+  沼津市の防災計画に基づく津波ハザード情報を提供.
 
 \bibitem{dataNankaiTunamiTime}
 内閣府.

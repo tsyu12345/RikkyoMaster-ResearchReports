@@ -12,48 +12,54 @@
 \contentsline {subsection}{\numberline {2.2.1}ドローンによる避難誘導の先行研究と自治体の実証実験の事例}{7}{}%
 \contentsline {section}{\numberline {2.3}強化学習}{8}{}%
 \contentsline {subsection}{\numberline {2.3.1}マルチエージェント強化学習の基本概念}{9}{}%
-\contentsline {subsection}{\numberline {2.3.2}MA-POCA（MultiAgent POsthumous Credit Assignment）}{11}{}%
+\contentsline {subsection}{\numberline {2.3.2}MA-POCA（MultiAgent POsthumous Credit Assignment）}{10}{}%
 \contentsline {paragraph}{MA-POCAの性能評価}{11}{}%
 \contentsline {section}{\numberline {2.4}ナビゲーションメッシュ}{12}{}%
 \contentsline {subsection}{\numberline {2.4.1}a* アルゴリズム}{13}{}%
 \contentsline {section}{\numberline {2.5}強化学習エージェントのデジタルツインへの応用}{14}{}%
-\contentsline {subsection}{\numberline {2.5.1}sim2real（Simulation to Reality）}{15}{}%
-\contentsline {chapter}{\numberline {第3章}提案手法と実験概要}{17}{}%
-\contentsline {section}{\numberline {3.1}提案手法の概要}{17}{}%
-\contentsline {section}{\numberline {3.2}既存研究との新規性}{18}{}%
-\contentsline {section}{\numberline {3.3}実験概要}{19}{}%
-\contentsline {section}{\numberline {3.4}シミュレーション前提条件}{19}{}%
-\contentsline {subsection}{\numberline {3.4.1}都市モデルの選定と避難所の配置条件}{19}{}%
-\contentsline {subsection}{\numberline {3.4.2}避難者の前提条件}{21}{}%
-\contentsline {subsection}{\numberline {3.4.3}避難所収容人数の前提条件}{21}{}%
-\contentsline {subsection}{\numberline {3.4.4}エージェントの前提条件}{21}{}%
-\contentsline {section}{\numberline {3.5}避難者探索タスク実験方法}{22}{}%
-\contentsline {paragraph}{エージェントの観測}{22}{}%
+\contentsline {subsection}{\numberline {2.5.1}sim2real（Simulation to Reality）}{14}{}%
+\contentsline {chapter}{\numberline {第3章}提案手法と実験概要}{16}{}%
+\contentsline {section}{\numberline {3.1}提案手法の概要}{16}{}%
+\contentsline {section}{\numberline {3.2}既存研究との新規性}{17}{}%
+\contentsline {section}{\numberline {3.3}実験概要}{18}{}%
+\contentsline {section}{\numberline {3.4}シミュレーション前提条件}{18}{}%
+\contentsline {subsection}{\numberline {3.4.1}都市モデルの選定と避難所の配置条件}{18}{}%
+\contentsline {subsection}{\numberline {3.4.2}避難者の前提条件}{20}{}%
+\contentsline {subsection}{\numberline {3.4.3}避難所収容人数の前提条件}{20}{}%
+\contentsline {subsection}{\numberline {3.4.4}エージェントの前提条件}{20}{}%
+\contentsline {section}{\numberline {3.5}避難者探索タスク実験方法}{21}{}%
+\contentsline {paragraph}{エージェントの観測}{21}{}%
+\contentsline {paragraph}{エージェントの行動}{22}{}%
+\contentsline {paragraph}{エージェントの報酬}{22}{}%
+\contentsline {paragraph}{評価と比較}{22}{}%
+\contentsline {section}{\numberline {3.6}避難所誘導タスク実験方法}{22}{}%
+\contentsline {paragraph}{エージェントの観測}{23}{}%
 \contentsline {paragraph}{エージェントの行動}{23}{}%
-\contentsline {paragraph}{エージェントの報酬}{23}{}%
-\contentsline {paragraph}{評価と比較}{23}{}%
-\contentsline {section}{\numberline {3.6}避難所誘導タスク実験方法}{23}{}%
-\contentsline {paragraph}{エージェントの観測}{24}{}%
-\contentsline {paragraph}{エージェントの行動}{24}{}%
-\contentsline {paragraph}{エージェントの報酬}{25}{}%
-\contentsline {paragraph}{評価と比較}{25}{}%
-\contentsline {chapter}{\numberline {第4章}実験結果と考察}{26}{}%
-\contentsline {section}{\numberline {4.1}避難者探索タスク実験}{26}{}%
-\contentsline {subsection}{\numberline {4.1.1}モデル学習結果}{26}{}%
-\contentsline {subsection}{\numberline {4.1.2}実験結果}{28}{}%
-\contentsline {subsubsection}{横須賀市のケース}{28}{}%
-\contentsline {subsubsection}{沼津市のケース}{29}{}%
-\contentsline {subsection}{\numberline {4.1.3}結果の考察}{29}{}%
-\contentsline {section}{\numberline {4.2}避難所誘導タスクの結果}{30}{}%
-\contentsline {subsection}{\numberline {4.2.1}モデル学習結果}{30}{}%
-\contentsline {subsection}{\numberline {4.2.2}実験結果}{32}{}%
-\contentsline {subsubsection}{横須賀市のケース}{32}{}%
-\contentsline {subsubsection}{沼津市のケース}{33}{}%
-\contentsline {subsection}{\numberline {4.2.3}結果の考察}{35}{}%
-\contentsline {chapter}{\numberline {第5章}結論}{37}{}%
-\contentsline {section}{\numberline {5.1}実験のまとめ}{37}{}%
-\contentsline {paragraph}{ルールベースでのドローンエージェントの有効性}{37}{}%
-\contentsline {paragraph}{マルチエージェントモデルの課題}{38}{}%
-\contentsline {section}{\numberline {5.2}ドローンによる津波避難誘導の実現可能性}{38}{}%
-\contentsline {section}{\numberline {5.3}今後の展望}{38}{}%
-\contentsline {chapter}{参考文献}{41}{}%
+\contentsline {paragraph}{エージェントの報酬}{24}{}%
+\contentsline {paragraph}{評価と比較}{24}{}%
+\contentsline {chapter}{\numberline {第4章}実験結果と考察}{25}{}%
+\contentsline {section}{\numberline {4.1}避難者探索タスク実験}{25}{}%
+\contentsline {subsection}{\numberline {4.1.1}モデル学習結果}{25}{}%
+\contentsline {subsection}{\numberline {4.1.2}実験結果}{27}{}%
+\contentsline {subsubsection}{横須賀市のケース}{27}{}%
+\contentsline {subsubsection}{沼津市のケース}{28}{}%
+\contentsline {subsection}{\numberline {4.1.3}結果の考察}{28}{}%
+\contentsline {section}{\numberline {4.2}避難所誘導タスクの結果}{29}{}%
+\contentsline {subsection}{\numberline {4.2.1}モデル学習結果}{29}{}%
+\contentsline {subsection}{\numberline {4.2.2}実験結果}{31}{}%
+\contentsline {subsubsection}{横須賀市のケース}{31}{}%
+\contentsline {subsubsection}{沼津市のケース}{32}{}%
+\contentsline {subsection}{\numberline {4.2.3}結果の考察}{34}{}%
+\contentsline {chapter}{\numberline {第5章}結論}{36}{}%
+\contentsline {section}{\numberline {5.1}実験のまとめ}{36}{}%
+\contentsline {paragraph}{ルールベースでのドローンエージェントの有効性}{36}{}%
+\contentsline {paragraph}{マルチエージェントモデルの課題}{37}{}%
+\contentsline {section}{\numberline {5.2}ドローンによる津波避難誘導の実現可能性}{37}{}%
+\contentsline {section}{\numberline {5.3}今後の展望}{37}{}%
+\contentsline {chapter}{参考文献}{40}{}%
+\contentsline {section}{\numberline {.1}探索タスクマルチエージェントモデルの学習結果}{42}{}%
+\contentsline {subsection}{\numberline {.1.1}横須賀市の場合}{42}{}%
+\contentsline {subsection}{\numberline {.1.2}沼津市の場合}{43}{}%
+\contentsline {section}{\numberline {.2}誘導タスクマルチエージェントモデルの学習結果}{44}{}%
+\contentsline {subsection}{\numberline {.2.1}横須賀市の場合}{44}{}%
+\contentsline {subsection}{\numberline {.2.2}沼津市の場合}{45}{}%

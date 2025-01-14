@@ -3,58 +3,48 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: main.bib
-Warning--I didn't find a database entry for "tsunami_evacuation_koshigoe"
-Warning--empty author in kouti-01
-Warning--empty title in kouti-01
-Warning--empty journal in kouti-01
-Warning--empty year in kouti-01
-Warning--empty author in visitor01
-Warning--empty title in visitor01
-Warning--empty journal in visitor01
-Warning--empty year in visitor01
-Warning--empty author in touhoku-01
-Warning--empty title in touhoku-01
-Warning--empty journal in touhoku-01
-Warning--empty year in touhoku-01
-You've used 17 entries,
+Warning--I didn't find a database entry for "fig:fig-01"
+Warning--empty author in npa2012
+Warning--there's a number but no volume in syouboukikin2012
+You've used 21 entries,
             1791 wiz_defined-function locations,
-            536 strings with 6528 characters,
-and the built_in function-call counts, 3263 in all, are:
-= -- 270
-> -- 141
-< -- 2
-+ -- 56
-- -- 39
-* -- 217
-:= -- 503
-add.period$ -- 52
-call.type$ -- 17
-change.case$ -- 14
+            576 strings with 7970 characters,
+and the built_in function-call counts, 4308 in all, are:
+= -- 379
+> -- 192
+< -- 3
++ -- 75
+- -- 54
+* -- 270
+:= -- 678
+add.period$ -- 69
+call.type$ -- 21
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 149
-empty$ -- 336
-format.name$ -- 39
-if$ -- 717
+cite$ -- 23
+duplicate$ -- 181
+empty$ -- 438
+format.name$ -- 54
+if$ -- 963
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 13
-newline$ -- 87
-num.names$ -- 14
-pop$ -- 74
+int.to.str$ -- 21
+missing$ -- 14
+newline$ -- 112
+num.names$ -- 18
+pop$ -- 79
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 75
+skip$ -- 84
 stack$ -- 0
-substring$ -- 138
-swap$ -- 29
-text.length$ -- 2
+substring$ -- 217
+swap$ -- 41
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 12
-while$ -- 26
-width$ -- 19
-write$ -- 175
-(There were 13 warnings)
+warning$ -- 2
+while$ -- 37
+width$ -- 23
+write$ -- 235
+(There were 3 warnings)

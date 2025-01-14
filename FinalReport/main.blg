@@ -3,7 +3,6 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: main.bib
-Warning--I didn't find a database entry for "sample"
 Warning--I didn't find a database entry for "tsunami_evacuation_koshigoe"
 Warning--empty author in kouti-01
 Warning--empty title in kouti-01
@@ -19,7 +18,7 @@ Warning--empty journal in touhoku-01
 Warning--empty year in touhoku-01
 You've used 17 entries,
             1791 wiz_defined-function locations,
-            537 strings with 6534 characters,
+            536 strings with 6528 characters,
 and the built_in function-call counts, 3263 in all, are:
 = -- 270
 > -- 141
@@ -58,4 +57,4 @@ warning$ -- 12
 while$ -- 26
 width$ -- 19
 write$ -- 175
-(There were 14 warnings)
+(There were 13 warnings)

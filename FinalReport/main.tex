@@ -15,6 +15,7 @@
 \usepackage[notransparent]{svg}
 \usepackage{graphicx}   % 画像を扱うパッケージ
 \usepackage{subcaption} % サブキャプションを扱うパッケージ
+
 \geometry{left=25truemm, top=10truemm, right=25truemm, bottom=20truemm}
 \setjamainfont{ipam.ttf}
 \setjasansfont{ipag.ttf}
@@ -80,7 +81,12 @@
 
 % ===概要===
 \begin{abstract}
-ここに概要を書く~\cite{sample}
+    本研究は、津波避難誘導における津波避難ビルへの避難完了率の最大化を目的として、マルチエージェント強化学習を活用した自律飛行型ドローンモデルを提案する。
+    観光地や都市部における避難者の多様性を考慮し、複数ドローンの協調行動により避難者を適切な避難所へ誘導する。
+    特に、MA-POCAアルゴリズムを用いてエージェント間の協調性を強化し、ゲームAI技術や3D都市モデル技術を活用して現実の都市環境を再現したシミュレーション実験を実施した。
+    実験は都市内の避難者を探索し誘導する群衆を形成する探索タスクと,群衆を避難所へ誘導する誘導タスクに分けて行い、比較実験によりその有効性を検証した。
+    結果,今回作成したマルチエージェントモデルは,ルールベースで行動する場合より良い結果を得ることは出来なかったが,避難所誘導タスクにおいては,ルールベースで行動するドローンエージェントの誘導がない場合と比較して,避難完了率が向上することが確認された。
+    
 \end{abstract}
 
 % ===目次===
@@ -102,7 +108,7 @@
 \input{Chapter5}
 
 % ===謝辞(任意)===
-% \input{Acknowledgment}
+\input{Acknowledgment}
 
 % ===参考文献===
 \bibliography{main}
@@ -110,6 +116,6 @@
     
 
 % ===付録(任意)===
-% \input{Appendix}
+\input{Appendix}
 
 \end{document}

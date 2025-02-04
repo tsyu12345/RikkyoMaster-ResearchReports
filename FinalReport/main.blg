@@ -3,12 +3,11 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: main.bib
-Warning--I didn't find a database entry for "fig:fig-01"
 Warning--empty author in npa2012
 Warning--there's a number but no volume in syouboukikin2012
 You've used 21 entries,
             1791 wiz_defined-function locations,
-            576 strings with 7970 characters,
+            575 strings with 7960 characters,
 and the built_in function-call counts, 4308 in all, are:
 = -- 379
 > -- 192
@@ -47,4 +46,4 @@ warning$ -- 2
 while$ -- 37
 width$ -- 23
 write$ -- 235
-(There were 3 warnings)
+(There were 2 warnings)

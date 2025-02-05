@@ -16,6 +16,38 @@
 \usepackage[notransparent]{svg}
 \usepackage{graphicx}   % 画像を扱うパッケージ
 \usepackage{subcaption} % サブキャプションを扱うパッケージ
+\usepackage{listings} % コード表示用パッケージ
+\usepackage{xcolor}   % 色付け用
+% カラースキーム設定
+\definecolor{keyColor}{RGB}{86,156,214}      % キー (水色)
+\definecolor{valueNumberColor}{RGB}{181,206,168} % 数値 (黄緑)
+\definecolor{valueStringColor}{RGB}{255,203,107} % 文字列 (オレンジ)
+\definecolor{commentColor}{RGB}{128,128,128}     % コメント (グレー)
+\definecolor{backgroundColor}{RGB}{30,30,30}    % 背景色 (ダーク)
+
+% YAML 用のリスト設定
+\lstdefinelanguage{yaml}{
+  keywords={true, false, null, Yes, No}, % ブール値などのキーワード
+  keywordstyle=\color{keyColor}\bfseries, % キーのスタイル (水色)
+  basicstyle=\ttfamily\small\color{white}, % ベースフォント (白)
+  morecomment=[l]{\#},                     % コメントの記号
+  commentstyle=\color{commentColor},       % コメントの色 (グレー)
+  morestring=[b]",                         % 文字列 (ダブルクォート)
+  morestring=[b]',                         % 文字列 (シングルクォート)
+  stringstyle=\color{valueStringColor},    % 文字列値の色 (オレンジ)
+  numberstyle=\color{valueNumberColor},    % 数値の色 (黄緑)
+  identifierstyle=\color{keyColor},        % キーの色 (水色)
+  numbers=left,                            % 行番号を表示
+  numberstyle=\tiny\color{gray},           % 行番号の色 (グレー)
+  stepnumber=1,                            % 行番号の間隔
+  frame=single,                            % 枠をつける
+  backgroundcolor=\color{backgroundColor}, % 背景色 (ダークグレー)
+  rulecolor=\color{gray},                  % 枠線の色 (グレー)
+  breaklines=true,                         % 長い行を折り返し
+}
+
+
+
 
 \geometry{left=25truemm, top=10truemm, right=25truemm, bottom=20truemm}
 \setjamainfont{ipam.ttf}
@@ -49,7 +81,7 @@
         % \vspace{20truept}
 
         % {\headfont \Large 指導教員　 指導教員名}
-        % % 複数教員の場合、「\and」 でつなげる
+        % % 複数教員の場合,「\and」 でつなげる
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
         %%%%% プロジェクト実習は以下 %%%%%
@@ -65,7 +97,7 @@
         \vspace{20truept}
 
         {\headfont \Large 指導教員　 三宅陽一郎}
-        % 複数教員の場合、「\and」 でつなげる
+        % 複数教員の場合,「\and」 でつなげる
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         
         \vspace{100truept}
@@ -82,18 +114,18 @@
 
 % ===概要===
 \begin{abstract}
-    本研究は、津波避難誘導における津波避難ビルへの避難完了率の最大化を目的として、マルチエージェント強化学習を活用した自律飛行型ドローンモデルを提案する。
-    観光地や都市部における避難者の多様性を考慮し、複数ドローンの協調行動により避難者を適切な避難所へ誘導する。
-    特に、MA-POCAアルゴリズムを用いてエージェント間の協調性を強化し、ゲームAI技術や3D都市モデル技術を活用して現実の都市環境を再現したシミュレーション実験を実施した。
-    実験は都市内の避難者を探索し誘導する群衆を形成する探索タスクと,群衆を避難所へ誘導する誘導タスクに分けて行い、比較実験によりその有効性を検証した。
-    結果,今回作成したマルチエージェントモデルは,ルールベースで行動する場合より良い結果を得ることは出来なかったが,避難所誘導タスクにおいては,ルールベースで行動するドローンエージェントの誘導がない場合と比較して,避難完了率が向上することが確認された。
+    本研究は,津波避難誘導における津波避難ビルへの避難完了率の最大化を目的として,マルチエージェント強化学習を活用した自律飛行型ドローンモデルを提案する.
+    観光地や都市部における避難者の多様性を考慮し,複数ドローンの協調行動により避難者を適切な避難所へ誘導する.
+    特に,MA-POCAアルゴリズムを用いてエージェント間の協調性を強化し,ゲームAI技術や3D都市モデル技術を活用して現実の都市環境を再現したシミュレーション実験を実施した.
+    実験は都市内の避難者を探索し誘導する群衆を形成する探索タスクと,群衆を避難所へ誘導する誘導タスクに分けて行い,比較実験によりその有効性を検証した.
+    結果,今回作成したマルチエージェントモデルは,ルールベースで行動する場合より良い結果を得ることは出来なかったが,避難所誘導タスクにおいては,ルールベースで行動するドローンエージェントの誘導がない場合と比較して,避難完了率が向上することが確認された.
     
 \end{abstract}
 
 % ===目次===
 \setcounter{tocdepth}{2}
  % 目次に表示する階層（必要に応じて変更）
- % 0はchapterまで、1でsectionまで、2でsubsectionまで...
+ % 0はchapterまで,1でsectionまで,2でsubsectionまで...
 \tableofcontents
 % ===目次をページ数に入れない===
 \thispagestyle{empty}
